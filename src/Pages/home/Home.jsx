@@ -1,5 +1,7 @@
 import Hero from "./Hero"
+import HowWork from "./HowWork"
 import Slider from "./Slider"
+import Test from "./Test"
 
 
 const Home = () => {
@@ -7,6 +9,8 @@ const Home = () => {
     <>
     <Hero/>
     <Slider/>
+    <HowWork/>
+    <Test/>
     </>
   )
 }
