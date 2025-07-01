@@ -5,6 +5,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 ## important link
 - [react router v6]
 - [react icon] (https://www.npmjs.com/package/react-icons) (https://react-icons.github.io/react-icons/)
+- [swiper js](https://swiperjs.com/get-started)
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -52,7 +52,7 @@ const Navbar = () => {
   },[])
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-1 transition-all duration-400 ease-in-out ${isScrolled ? "bg-white shadow-md": "bg-transparent text-white"}`}
+      className={`fixed top-0 left-0 right-0 z-10 transition-all duration-400 ease-in-out ${isScrolled ? "bg-white shadow-md": "bg-transparent text-white"}`}
     >
       <nav className="max-w-[1400px] container mx-auto flex justify-between items-center p-4">
         {/* logo */}
@@ -60,9 +60,9 @@ const Navbar = () => {
           Photo Edit Bd
         </Link>
         {/* mobile menu toggler */}
-        <div
+        <div 
           onClick={toggleMenu}
-          className="md:hidden cursor-pointer hover:text-purple-500"
+          className="md:hidden cursor-pointer text-2xl hover:text-purple-500"
         >
           {open ? null : <CgMenuRightAlt />}
         </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
           } md:hidden`}
         >
           <div
-            className="cursor-pointer absolute top-4 right-4 text-xl"
+            className="cursor-pointer absolute top-4 right-4 text-2xl"
             onClick={toggleMenu}
           >
             <CgClose />
