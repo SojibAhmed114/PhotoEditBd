@@ -1,9 +1,7 @@
 import React from 'react'
 
 const Location = () => {
-  return (
-    <div>Location</div>
-  )
+  return <div className="h-screen bg-black">Location</div>;
 }
 
 export default Location

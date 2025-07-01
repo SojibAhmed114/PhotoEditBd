@@ -1,20 +1,26 @@
-import React from 'react'
+import { useState } from "react";
+import { CgMenuRightAlt } from "react-icons/cg";
+import { CgClose } from "react-icons/cg";
 import { Link, NavLink } from "react-router-dom";
+
 const navItems = [
-  { id:1, path: "/services", label: "Services"},
-  { id:2, path: "/about", label: "About Us"},
-  { id:3, path: "/contact", label: "Contact Us"},
-  { id:4, path: "/location", label: "location"},
-]
-const NavItems = () =>{
+  { id: 1, path: "/", label: "Home" },
+  { id: 2, path: "/services", label: "Services" },
+  { id: 3, path: "/about", label: "About Us" },
+  { id: 4, path: "/contact", label: "Contact Us" },
+  { id: 5, path: "/location", label: "Location" },
+];
+const NavItems = ({ toggleMenu }) => {
   return (
     <ul className="flex flex-col md:flex-row items-center md:space-x-8 gap-8">
       {navItems.map((items) => (
-        <li key={items.id}>
+        <li key={items.id} onClick={toggleMenu}>
           <NavLink
             to={items.path}
             className={({ isActive }) =>
-              isActive ? "font-bold text-purple-600" : "hover:text-purple-500"
+              isActive
+                ? "font-bold text-purple-600 border px-3 py-2 rounded-full"
+                : "hover:text-purple-500"
             }
           >
             {items.label}
@@ -23,21 +29,56 @@ const NavItems = () =>{
       ))}
     </ul>
   );
-}
+};
 const Navbar = () => {
+  const [open , setOpen] = useState(false);
+
+  const toggleMenu =() =>{
+    setOpen(()=>!open);
+  } 
   return (
-    <header>
+    <header
+      className={`fixed top-0 left-0 right-0 z-1 transition duration-300 ease-in-out text-white`}
+    >
       <nav className="max-w-[1400px] container mx-auto flex justify-between items-center p-4">
+        {/* logo */}
         <Link className="font-bold" to="/">
           Photo Edit Bd
         </Link>
-        <div className='hidden md:flex'>
+        {/* mobile menu toggler */}
+        <div
+          onClick={toggleMenu}
+          className="md:hidden cursor-pointer hover:text-purple-500"
+        >
+          {open ? null : <CgMenuRightAlt />}
+        </div>
+        {/* desktop menu */}
+        <div className="hidden md:flex">
           <NavItems />
         </div>
-        <div className='hidden md:block'>card</div>
+
+        {/* mobile menu */}
+        <div
+          className={`fixed top-0 left-0 w-full h-screen bg-black/80 flex flex-col items-center justify-center space-y-8 text-white transition-transform transform ${
+            open ? "translate-x-0" : "-translate-x-full"
+          } md:hidden`}
+        >
+          <div
+            className="cursor-pointer absolute top-4 right-4 text-xl"
+            onClick={toggleMenu}
+          >
+            <CgClose />
+          </div>
+          <div>
+            <NavItems toggleMenu={toggleMenu} />
+          </div>
+        </div>
+        <div className="hidden md:block">card</div>
       </nav>
     </header>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
+
+

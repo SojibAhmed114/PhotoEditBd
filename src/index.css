@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libertinus+Math&display=swap');
+
 @import "tailwindcss";
+
+
+@theme {
+  --color-myPrimary: #A020F0;
+  --font-Header: "Abril Fatface", "serif";
+  --font-subHeader: "Libertinus Math", "system-ui";
+  --animate-imgPulse: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  @keyframes pulse {
+    0%,
+    100% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+      transform: translate(0px, 20px);
+      opacity: 0.9;
+    }
+  }
+}
