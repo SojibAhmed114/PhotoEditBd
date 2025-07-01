@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
 import { Link, NavLink } from "react-router-dom";
@@ -32,13 +32,27 @@ const NavItems = ({ toggleMenu }) => {
 };
 const Navbar = () => {
   const [open , setOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu =() =>{
     setOpen(()=>!open);
   } 
+  useEffect(()=>{
+    const handleScroll = ()=>{
+      if (window.scrollY > 50) {
+        setIsScrolled(true)
+      } else {
+        setIsScrolled(false)
+      }
+    }
+    window.addEventListener('scroll', handleScroll);
+    return () =>{
+      window.addEventListener('scroll', handleScroll);
+    }
+  },[])
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-1 transition duration-300 ease-in-out text-white`}
+      className={`fixed top-0 left-0 right-0 z-1 transition-all duration-400 ease-in-out ${isScrolled ? "bg-white shadow-md": "bg-transparent text-white"}`}
     >
       <nav className="max-w-[1400px] container mx-auto flex justify-between items-center p-4">
         {/* logo */}
