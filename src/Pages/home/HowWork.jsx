@@ -3,7 +3,7 @@ import TitleHeader from '../../Components/TitleHeader';
 
 const HowWork = () => {
   return (
-    <section className="max-w-[1400px] container mx-auto p-4 border-t-3 border-myPrimary rounded-2xl">
+    <section className="max-w-[1400px] container mx-auto px-4  pb-10 my-10 border-y-3 border-myPrimary rounded-2xl">
       <TitleHeader
         titleHeader={"How Photoshop Bd Works"}
         headerSubTitle={

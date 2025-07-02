@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
 import { Link, NavLink } from "react-router-dom";
-
+import logo from "../assets/dslr-camera.png"
 const navItems = [
   { id: 1, path: "/", label: "Home" },
   { id: 2, path: "/services", label: "Services" },
@@ -52,15 +52,17 @@ const Navbar = () => {
   },[])
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-10 transition-all duration-400 ease-in-out ${isScrolled ? "bg-white shadow-md": "bg-transparent text-white"}`}
+      className={`fixed top-0 left-0 right-0 z-10 transition-all duration-400 ease-in-out ${
+        isScrolled ? "bg-white shadow-md" : "bg-transparent text-white"
+      }`}
     >
       <nav className="max-w-[1400px] container mx-auto flex justify-between items-center p-4">
         {/* logo */}
         <Link className="font-bold" to="/">
-          Photo Edit Bd
+          <span className="flex items-center gap-1"> <img className="size-12" src={logo} alt="" /> Photo Edit Bd </span>
         </Link>
         {/* mobile menu toggler */}
-        <div 
+        <div
           onClick={toggleMenu}
           className="md:hidden cursor-pointer text-2xl hover:text-purple-500"
         >

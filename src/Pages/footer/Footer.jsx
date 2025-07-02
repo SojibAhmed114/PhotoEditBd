@@ -1,9 +1,58 @@
-import React from 'react'
+import logo from "/src/assets/dslr-camera.png"
 
 const Footer = () => {
   return (
-    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ea! At sit repellendus iure recusandae dolorem, facere ducimus quae debitis suscipit doloribus blanditiis deserunt a explicabo in error, ea ut? Quidem ut, non porro blanditiis fuga hic incidunt repellat quo libero, quos itaque corporis soluta tempore accusamus quibusdam vero veritatis quae totam corrupti minus et iste doloribus maiores atque. Non in iste quam esse voluptate. Ab similique voluptatem perferendis doloribus quia consequuntur, amet mollitia aperiam vitae unde, nemo repudiandae natus nesciunt voluptas repellat accusamus eius? Excepturi, eos! Doloribus, rem laborum commodi praesentium sit, velit eius nesciunt voluptate et inventore ut odio, provident alias at cum veritatis ex ducimus maiores recusandae enim rerum. Voluptates consectetur rerum debitis cumque minus impedit eaque consequatur ut, similique ipsam officiis nam. Iure voluptatibus libero quo dicta soluta, fugit minima porro. Exercitationem placeat, provident in eius saepe corrupti, nostrum praesentium natus enim impedit totam ipsa hic repudiandae. Sed autem ipsum placeat, itaque impedit quod earum corrupti inventore odio doloribus atque totam nostrum quam voluptates fuga ducimus a molestias. Reiciendis eaque consequatur, placeat commodi sapiente quae exercitationem doloremque magnam? Illum, atque nulla? Corrupti, est possimus quos eveniet at nobis repellat vel amet placeat perspiciatis dolorem inventore minima eius esse labore unde eaque cupiditate ut dolorum asperiores non nulla sequi? Officia, corporis dolores officiis doloremque maiores ratione voluptatem ipsam corrupti eveniet commodi? Placeat voluptatibus officia, ab quas nostrum unde saepe beatae deleniti doloribus in itaque non, eum cupiditate adipisci natus libero numquam possimus obcaecati voluptates tempora velit dolorem vel. Praesentium nulla accusamus officia deserunt ad ab quae officiis omnis! Ipsam pariatur placeat minus quis ducimus fuga facere at natus itaque blanditiis alias distinctio vel accusantium rerum aperiam, rem ut accusamus minima magni. Molestiae, facilis cupiditate! Magnam officiis officia pariatur amet aut minus, voluptatibus expedita. Ut architecto voluptates laborum nostrum et a veritatis accusamus temporibus cumque voluptatem quo alias perspiciatis labore molestiae iure iste ab perferendis, minus dolores eaque explicabo. Quasi optio nobis natus ab, ad, quod accusamus id, nostrum nisi voluptas dolore corrupti labore voluptatibus veniam soluta ducimus impedit iusto quidem fugit est eius? Minus id impedit, veniam eaque corrupti dolorum iste incidunt. Assumenda illum nemo ipsum at nisi. Ipsum eius et in pariatur vero rem mollitia inventore. Nesciunt, exercitationem provident. Enim consequatur dicta, expedita ut temporibus, nulla dignissimos aut, laborum laboriosam unde non commodi nostrum? Incidunt nesciunt tenetur corrupti! Sunt nobis doloribus, reprehenderit nemo distinctio exercitationem, tenetur porro sed quidem possimus accusantium obcaecati iusto minus. Rerum laborum soluta sed. Vero accusantium aliquam dolore, inventore totam eius hic. Nobis facilis, consectetur laborum dignissimos ratione voluptatem ab voluptatum saepe optio reprehenderit totam mollitia ad recusandae neque. Labore voluptates praesentium odit vero unde, tempora quo quod, odio animi eius ipsa obcaecati quibusdam assumenda, sunt architecto veritatis recusandae rem mollitia nulla. Unde, officia. Corporis labore aliquid explicabo perferendis quam eius sed optio sint similique, sapiente voluptas iusto dignissimos ad consectetur aspernatur odio iste minima quasi mollitia sunt assumenda non distinctio temporibus numquam! Architecto laboriosam quod possimus nesciunt recusandae ducimus illum. Veritatis modi ipsa necessitatibus aliquid sed beatae eius nulla a vel delectus quas, porro commodi, omnis quod. Repellat corporis reprehenderit pariatur libero nobis temporibus excepturi eius officiis in nihil quidem harum voluptates provident, inventore exercitationem, iure non fugit, sunt sint quos optio aliquam dolore! Deleniti, unde doloremque aliquam corporis praesentium illum voluptatum beatae porro maiores dolorem ducimus, expedita minus illo eaque et dolore quo architecto! Dolores unde itaque voluptates reprehenderit, ducimus alias laboriosam beatae maiores ea error id quisquam libero? Nulla est, incidunt blanditiis deleniti similique autem, nam, magni repellendus perferendis ipsum nisi explicabo harum voluptate rem voluptatum vitae commodi totam beatae architecto soluta fugit itaque dolores laboriosam exercitationem! Hic sapiente aperiam porro perferendis. Doloremque quas quod reprehenderit qui pariatur modi dolorem quia vel fugiat voluptatem! Beatae, iste exercitationem animi eum possimus voluptatum error ipsum fugiat reprehenderit eius nam corporis officiis ut, nihil, velit voluptatem! Voluptatum cum fugiat aliquam animi corporis molestias officia facere minus nihil quaerat, nulla minima quos reprehenderit architecto eos consequatur temporibus iste laborum accusantium esse optio dolorem. Expedita consequatur exercitationem molestiae nam numquam saepe quo, ipsa praesentium nobis magni consectetur debitis accusamus tempore temporibus obcaecati natus dolorem quaerat modi iste minima nostrum aperiam omnis ad corporis! Modi porro in dolor eum perferendis quisquam possimus aut at maiores ab delectus sunt odio hic deleniti qui nulla, blanditiis exercitationem placeat dolores ad autem provident nesciunt sit. Voluptate animi a sit, ipsam, autem impedit necessitatibus enim doloribus quasi dolorem quibusdam assumenda illum nam consequatur sed facere inventore labore. Ipsa assumenda, obcaecati natus consectetur a quam, fugit dolor numquam quidem odio rerum vitae? Hic modi illum cumque eaque neque. Voluptatibus, corrupti, itaque facere impedit autem, beatae numquam laborum dolores neque consectetur placeat cupiditate asperiores unde adipisci vel corporis. Dicta velit quod architecto sequi libero mollitia optio quibusdam veritatis maiores, dolorem ipsam quos odio ratione soluta error delectus quo magnam doloribus incidunt ullam quae iusto obcaecati alias nesciunt? Molestiae sunt nisi earum, ex, quod maiores quam maxime saepe, neque architecto deserunt velit natus suscipit fugiat nostrum eaque aliquid consectetur eius! Nobis aperiam similique ea obcaecati praesentium, soluta possimus dolores sint culpa. Veniam aliquam, eligendi debitis sit distinctio voluptatem unde quidem, maxime, aliquid architecto voluptate at atque suscipit nesciunt vero. Fugiat mollitia sequi error ratione repudiandae quis beatae minus vero illo in quo quos, eaque adipisci voluptatem consequatur tenetur a cum? Reiciendis quas dolore, quae assumenda veniam dolorem possimus placeat explicabo cupiditate quibusdam veritatis sint ipsam architecto harum. Beatae fuga ex nobis mollitia ducimus sunt porro, nemo numquam quo cum modi quasi alias, id aliquid ullam illum saepe minus hic at ab non iure voluptatibus nesciunt. Eius cum, veritatis numquam a ipsam corporis pariatur repellat nisi architecto nobis, tenetur, consectetur ipsa excepturi. Esse debitis repudiandae nemo vitae corporis quaerat nostrum? Repellat nisi dolorem molestiae aperiam dolorum, voluptatum neque assumenda obcaecati explicabo provident ducimus vero ab aspernatur. Expedita, vitae quisquam? Officia deleniti error non atque voluptatibus, earum, sed ipsam culpa eveniet laborum quis provident deserunt laboriosam quae. Mollitia natus labore exercitationem voluptatem doloribus impedit.</div>
-  )
+    <section>
+      <footer className="footer footer-horizontal footer-center bg-myPrimary text-primary-content p-10">
+        <aside>
+          <img className="size-20" src={logo} alt="" />
+          <p className="font-bold">
+            Photo Edit Bd
+            <br />
+            Providing reliable tech since 2015
+          </p>
+          <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+        </aside>
+        <nav>
+          <div className="grid grid-flow-col gap-4">
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="fill-current"
+              >
+                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="fill-current"
+              >
+                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="fill-current"
+              >
+                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </footer>
+    </section>
+  );
 }
 
 export default Footer
