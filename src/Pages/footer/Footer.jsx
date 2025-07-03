@@ -3,7 +3,7 @@ import logo from "/src/assets/dslr-camera.png"
 const Footer = () => {
   return (
     <section>
-      <footer className="footer footer-horizontal footer-center bg-myPrimary text-primary-content p-10">
+      <footer className="footer footer-horizontal footer-center bg-myPrimary text-primary-content p-10 mt-10">
         <aside>
           <img className="size-20" src={logo} alt="" />
           <p className="font-bold">
