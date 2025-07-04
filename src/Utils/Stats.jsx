@@ -3,22 +3,26 @@
     {
       id: 1,
       title: "Experience",
-      value: "10+ Years",
+      value: "Years",
+      num: 10
     },
     {
       id: 2,
       title: "Clients",
-      value: "800+ Happy Clients",
+      value: "Happy Clients",
+      num: 800
     },
     {
       id: 3,
       title: "Support",
-      value: "24/7 Availability",
+      value: "/7 Availability",
+      num: 24
     },
     {
       id: 4,
       title: "Delivery",
-      value: "50K+ Projects Delivered",
+      value: "K+Projects Delivered",
+      num: 50
     },
   ];
 

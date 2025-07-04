@@ -1,5 +1,7 @@
 import React from 'react'
 import { stats } from '../../Utils/Stats'
+import StatsCount from '../../Components/StatsCount';
+
 
 const AboutDetails = () => {
   return (
@@ -42,16 +44,16 @@ const AboutDetails = () => {
         </div>
         {/* card section */}
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
             {stats.map((stat) => (
               <div
                 key={stat.id}
-                className="bg-white shadow-lg rounded-2xl p-6 text-center hover:shadow-xl transition duration-300"
+                className="bg-white shadow-lg rounded-2xl py-6 text-center hover:shadow-xl transition duration-300"
               >
-                <h3 className="text-xl font-bold text-purple-700">
-                  {stat.title}
-                </h3>
-                <p className="mt-2 text-lg text-gray-700">{stat.value}</p>
+                <p className="text-2xl font-bold text-purple-600 font-subHeader">
+                  <StatsCount ss={stat.num} /> {stat.value}
+                </p>
+                <h3 className=" font-medium">{stat.title}</h3>
               </div>
             ))}
           </div>

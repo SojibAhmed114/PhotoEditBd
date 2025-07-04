@@ -51,7 +51,7 @@ const Slider = () => {
             style={{ backgroundImage: `url(${cardImg.img})` }}
           >
             <div className="h-[300px] relative">
-              <p className="text-white/70 absolute m-2">photo edit bd</p>
+              <p className="text-red-500/60 text-[10px] absolute m-2">photo edit bd</p>
               {/* <img className="bg-center bg-no-repeat bg-cover rounded-xl h-full" src={cardImg.img} alt="photo" /> */}
             </div>
           </SwiperSlide>
