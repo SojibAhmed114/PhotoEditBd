@@ -1,5 +1,5 @@
 
-import About from "../about/About"
+import AboutDetails from "../about/AboutDetails"
 import Contact from "../contact/Contact"
 import Location from "../location/Location"
 import Hero from "./Hero"
@@ -14,7 +14,7 @@ const Home = () => {
       <Hero />
       <Slider/>
       <HowWork />
-      <About/>
+      <AboutDetails/>
       <Contact/>
       <Location />
     
