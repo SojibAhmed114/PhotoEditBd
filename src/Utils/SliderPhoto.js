@@ -11,6 +11,9 @@ import call03 from '../assets/call04.jpg'
 import call04 from '../assets/call05.jpg'
 import call05 from '../assets/call06.jpg'
 
+
+
+
 export const silderPhoto = [
   {id:1, img:bOne},
   {id:2, img:bTwo},
@@ -27,3 +30,6 @@ export const sliderCallCenter = [
   { id: 10, img: call04 },
   { id: 11, img: call05 }
 ];
+
+
+

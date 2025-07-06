@@ -1,10 +1,15 @@
+import { MailForm } from '../../Components/MailForm';
 import SliderTwo from '../contact/SliderTwo'
 
 const Contact = () => {
+
+  const handleGmail = () =>{
+    
+  }
   return (
     <section className="bg-[#f5f5f5]">
       <div className="max-w-[1400px] container mx-auto ">
-        <div className=" py-20 px-6 text-center">
+        <div className=" py-20 px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className=" text-gray-800 mb-6 text-3xl text-center mt-5 md:text-4xl font-medium pb-1 lg:leading-14 font-subHeader">
               Committed to Your Success – Partnering With You for a Better
@@ -51,6 +56,15 @@ const Contact = () => {
                     Instagram
                   </a>
                 </button>
+                <button onClick={handleGmail} className="bg-purple-600 text-white px-4 py-3 rounded-md hover:bg-purple-700 transition">
+                  <a className='w-full' href="mailto:safiahmed1156@gmail.com" target="_blank">
+                    Mail
+                  </a>
+                </button>
+              </div>
+              {/* form here */}
+              <div>
+                <MailForm/>
               </div>
             </div>
             <div className="bg-green-400 h-[500px]  md:col-span-6">
