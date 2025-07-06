@@ -8,12 +8,12 @@ function App() {
 
   return (
     <>
-
-      <Navbar/>
+      <Navbar />
       <main className="min-h-screen">
-      <Outlet/>
+        <Outlet />
       </main>
-      <Footer/>
+      <Footer />
+    
     </>
   );
 }
