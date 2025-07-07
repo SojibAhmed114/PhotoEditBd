@@ -1,6 +1,6 @@
 import  { useState } from "react";
 import { data } from "../../Utils/ProductsDetals"; // Adjust path if needed
-
+import CompareDemo from '../../Components/CompareDemo'
 const Products = ({ headerText }) => {
   const [openCardId, setOpenCardId] = useState(null);
   const [visible, setVisible] = useState(4);
@@ -24,11 +24,15 @@ const Products = ({ headerText }) => {
           return (
             <div key={item.id} className="w-full  lg:w-[48%]">
               <div className="bg-white shadow-md rounded-lg overflow-hidden h-full flex flex-col">
-                <img
+                <CompareDemo
+                  beforeImage={item.beforeImage}
+                  afterImage={item.afterImage}
+                />
+                {/* <img
                   src={item.beforeImage}
                   alt={item.titleName}
                   className="w-full h-48 object-cover"
-                />
+                /> */}
                 <div className="p-4 flex flex-col">
                   <h2 className="text-sm text-gray-500 mb-1">Service Name</h2>
                   <h2 className="text-lg font-semibold">{item.titleName}</h2>
