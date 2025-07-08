@@ -1,9 +1,7 @@
 
-
-import concept from '../../assets/concept.jpg'
-import ContactDetails from './ContactDetails';
+import concept from "../../assets/concept.jpg";
+import ContactDetails from "./ContactDetails";
 const Contact = () => {
-
   return (
     <section>
       <div
@@ -12,10 +10,9 @@ const Contact = () => {
           backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${concept})`,
         }}
       ></div>
-      <ContactDetails/>
+      <ContactDetails />
     </section>
-
   );
-}
+};
 
-export default Contact
+export default Contact;

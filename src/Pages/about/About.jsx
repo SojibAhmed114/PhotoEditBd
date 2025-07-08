@@ -1,5 +1,4 @@
 import aboutBg01 from '../../assets/aboutBg01.png.png'
-
 import AboutDetails from './AboutDetails';
 
 

@@ -8,7 +8,6 @@ import HowWork from "./HowWork";
 import Slider from "./Slider";
 
 const Home = () => {
-
   return (
     <>
       <Hero />
@@ -16,7 +15,7 @@ const Home = () => {
       <Products headerText="Our All Services" />
       <HowWork />
       <AboutDetails />
-      <ContactDetails/>
+      <ContactDetails />
       <Location />
     </>
   );

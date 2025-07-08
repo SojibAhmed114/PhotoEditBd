@@ -1,6 +1,6 @@
 
-import serviceBanner from "../../assets/serivesPhoto/serviceBanner.jpg"
-import Products from './Products';
+import serviceBanner from "../../assets/serivesPhoto/serviceBanner.jpg";
+import Products from "./Products";
 const Services = () => {
   return (
     <section>
@@ -10,9 +10,9 @@ const Services = () => {
           backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${serviceBanner})`,
         }}
       ></div>
-      <Products headerText="What's Your Choice"/>
+      <Products headerText="What's Your Choice" />
     </section>
   );
-}
+};
 
-export default Services
+export default Services;

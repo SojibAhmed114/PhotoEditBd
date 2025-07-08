@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Pages/footer/Footer";
 
+import { AnimatePresence } from "framer-motion";
 
 function App() {
 
@@ -9,11 +10,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen">
-        <Outlet />
-      </main>
+        <main className="min-h-screen" key={location.pathname}>
+          <Outlet />
+        </main>
       <Footer />
-    
     </>
   );
 }
