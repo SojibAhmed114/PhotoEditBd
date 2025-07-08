@@ -8,6 +8,7 @@ import Services from './Pages/services/Services.jsx';
 import Home from './Pages/home/Home.jsx';
 import Location from './Pages/location/Location.jsx';
 import About from './Pages/about/About.jsx';
+import { ToastContainer } from "react-toastify";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <ToastContainer position="top-center" autoClose={3000} />
     <RouterProvider router={router} />
   </StrictMode>
 );

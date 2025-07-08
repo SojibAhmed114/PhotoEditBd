@@ -1,5 +1,6 @@
 import  { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 export const MailForm = () => {
   const form = useRef();
@@ -13,10 +14,10 @@ export const MailForm = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          toast.success("The mail has been sent successfully.");
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          toast.error("FAILED...", error.text);
         }
       );
   };
@@ -29,22 +30,25 @@ export const MailForm = () => {
           className="py-2 px-3 outline-none text-black rounded-md placeholder-black/50 bg-white"
           type="text"
           name="user_name"
+          required
         />
         <input
           placeholder="Enter Your Email"
           className="py-2 px-3 outline-none text-black rounded-md placeholder-black/50 bg-white"
           type="email"
           name="user_email"
+          required
         />
         <textarea
           placeholder="Enter Your Message"
           className="py-2 px-3 resize-none text-black outline-none rounded-md placeholder-black/50 bg-white"
           name="message"
+          required
         />
         <input
           className="py-2 px-3 resize-none text-black outline-none rounded-md  bg-white"
           type="submit"
-          value="Send"
+          value="Send Mail"
         />
       </form>
     </div>

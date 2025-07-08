@@ -12,7 +12,7 @@ const navItems = [
 ];
 const NavItems = ({ toggleMenu }) => {
   return (
-    <ul className="flex flex-col md:flex-row items-center md:space-x-8 gap-8">
+    <ul className="flex flex-col md:flex-row items-center md:space-x- gap-8">
       {navItems.map((items) => (
         <li key={items.id} onClick={toggleMenu}>
           <NavLink
@@ -52,7 +52,7 @@ const Navbar = () => {
   },[])
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-10 transition-all duration-400 ease-in-out ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-400 ease-in-out ${
         isScrolled ? "bg-white shadow-md" : "bg-transparent text-white"
       }`}
     >

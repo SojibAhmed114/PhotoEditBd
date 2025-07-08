@@ -1,5 +1,6 @@
 import  { useState } from "react";
-import { data } from "../../Utils/ProductsDetals"; // Adjust path if needed
+import {  NavLink } from "react-router-dom";
+import { data } from "../../Utils/ProductsDetals";
 import CompareDemo from '../../Components/CompareDemo'
 const Products = ({ headerText }) => {
   const [openCardId, setOpenCardId] = useState(null);
@@ -22,7 +23,7 @@ const Products = ({ headerText }) => {
           const isOpen = openCardId === item.id;
 
           return (
-            <div key={item.id} className="w-full  lg:w-[48%]">
+            <div key={item.id} className="w-full lg:w-[48%]">
               <div className="bg-white shadow-md rounded-lg overflow-hidden h-full flex flex-col">
                 <CompareDemo
                   beforeImage={item.beforeImage}
@@ -38,7 +39,7 @@ const Products = ({ headerText }) => {
                   <h2 className="text-lg font-semibold">{item.titleName}</h2>
                   <button
                     onClick={() => toggleInfo(item.id)}
-                    className="mt-2 px-4 py-1 bg-purple-600 text-white rounded text-sm hover:bg-blue-600 transition"
+                    className="mt-2 px-4 py-2 bg-purple-600 text-white rounded text-sm hover:bg-blue-600 transition"
                   >
                     {isOpen ? "Hide Details" : item.btn}
                   </button>
@@ -51,7 +52,32 @@ const Products = ({ headerText }) => {
                         : "max-h-0 opacity-0"
                     }`}
                   >
-                    <p className="text-sm text-gray-700">{item.info}</p>
+                    <p className="text-sm text-gray-700 mb-5">
+                      {item.info}
+                      <br />
+                      <div className="grid grid-cols-3 gap-3 mt-2 ">
+                        <a
+                          className="bg-purple-600 text-white text-center  flex items-center justify-center   px-4 py-3 rounded-md hover:bg-purple-700 transition"
+                          href="https://wa.me/+8801750605626?text=Hello%20I%20am%20interested%20in%20your%20services"
+                          target="_blank"
+                        >
+                          WhatsApp
+                        </a>
+                        <a
+                          className="bg-purple-600 text-white text-center flex items-center justify-center  px-4 py-3 rounded-md hover:bg-purple-700 transition"
+                          href="https://t.me/Sojoneditors"
+                          target="_blank"
+                        >
+                          Telegram
+                        </a>
+                        <NavLink
+                          className="bg-purple-600 text-white text-center  px-4 py-3 rounded-md hover:bg-purple-700 transition"
+                          to="/contact"
+                        >
+                          All Contacts
+                        </NavLink>
+                      </div>
+                    </p>
                   </div>
                 </div>
               </div>

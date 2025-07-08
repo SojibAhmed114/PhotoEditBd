@@ -16,14 +16,7 @@ export const data = [
     btn: "View Details",
     info: "Newborn editing requires a soft, careful touch and an eye for detail. We gently remove blemishes, flakes, and redness from a baby’s sensitive skin. Our edits maintain natural skin textures while enhancing tone and softness. Props like blankets, hats, or baskets are also cleaned and balanced. We brighten eyes without overexposing the face. Soft light and pastel tones are enhanced to create a dreamy feel. Background clutter is removed for a clean and pure look. Shadows are smoothed to ensure the baby remains the focus. Wrinkles in clothing or fabric are edited with care. Our goal is to keep the innocence and warmth intact. We avoid over-editing to protect realism. Every baby deserves a timeless and beautiful photo.",
   },
-  {
-    id: 3,
-    titleName: "Maternity",
-    beforeImage: "https://i.ibb.co/LDyZRw6b/Meternity-Before.jpg",
-    afterImage: "https://i.ibb.co/Ngpk3t62/Meternity-After.jpg",
-    btn: "View Details",
-    info: "Maternity photos celebrate the miracle of motherhood. We enhance these images with elegance, warmth, and grace. Our editing focuses on smooth skin tones, glowing complexion, and subtle enhancements. Background distractions are removed to draw attention to the mother-to-be. We adjust contrast and brightness to evoke emotion and softness. Stretch marks and minor imperfections are softened but never erased entirely — to preserve authenticity. Garments and drapery are refined for a polished look. Light play and vignette effects may be added for dramatic depth. Hair flyaways, jewelry shine, and fabric wrinkles are adjusted as needed. We can also stylize maternity photos in a vintage, modern, or dreamy tone. The result is a powerful, feminine, and beautiful visual. Every photo tells a story of strength, love, and expectation.",
-  },
+
   {
     id: 4,
     titleName: "Birthday",
@@ -158,6 +151,14 @@ export const data = [
     afterImage: "https://i.ibb.co/jZrXYQ0k/1751781200927.jpg",
     btn: "View Details",
     info: "We resize images for any platform without losing quality. Social media, web, print — we know the right dimensions. Aspect ratio is preserved or cropped as needed. Pixel-perfect output is guaranteed. Resolution can be optimized for fast load times. Ideal for thumbnails, galleries, ads, or large prints. We can resize single files or entire folders. Naming and format customization is included. Watermark addition or removal is also available. We offer resizing in multiple formats (JPG, PNG, WEBP). The result: perfectly sized, sharp, and fast-loading images. A small change with big impact.",
+  },
+  {
+    id: 3,
+    titleName: "Maternity",
+    beforeImage: "https://i.ibb.co/LDyZRw6b/Meternity-Before.jpg",
+    afterImage: "https://i.ibb.co/Ngpk3t62/Meternity-After.jpg",
+    btn: "View Details",
+    info: "Maternity photos celebrate the miracle of motherhood. We enhance these images with elegance, warmth, and grace. Our editing focuses on smooth skin tones, glowing complexion, and subtle enhancements. Background distractions are removed to draw attention to the mother-to-be. We adjust contrast and brightness to evoke emotion and softness. Stretch marks and minor imperfections are softened but never erased entirely — to preserve authenticity. Garments and drapery are refined for a polished look. Light play and vignette effects may be added for dramatic depth. Hair flyaways, jewelry shine, and fabric wrinkles are adjusted as needed. We can also stylize maternity photos in a vintage, modern, or dreamy tone. The result is a powerful, feminine, and beautiful visual. Every photo tells a story of strength, love, and expectation.",
   },
 ];
 

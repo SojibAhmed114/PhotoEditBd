@@ -5,8 +5,8 @@ import StatsCount from '../../Components/StatsCount';
 
 const AboutDetails = () => {
   return (
-    <section className="pb-20">
-      <h1 className=" text-gray-800  mb-6 text-3xl text-center  mt-5 md:text-4xl font-medium pb-1 lg:leading-14 font-subHeader rounded-2xl">
+    <section className="pb-10">
+      <h1 className=" text-white md:text-gray-800   text-xl text-center  mt-5 md:text-4xl font-medium pb-1 lg:leading-14 font-subHeader rounded-2xl">
         About Us
       </h1>
       <div className="grid grid-cols-1 pt-10 lg:grid-cols-2 items-center gap-5 md:gap-10 mx-4">
