@@ -1,6 +1,6 @@
 
 import AboutDetails from "../about/AboutDetails";
-import Contact from "../contact/Contact";
+import ContactDetails from "../contact/ContactDetails";
 import Location from "../location/Location";
 import Products from "../services/Products";
 import Hero from "./Hero";
@@ -16,7 +16,7 @@ const Home = () => {
       <Products headerText="Our All Services" />
       <HowWork />
       <AboutDetails />
-      <Contact />
+      <ContactDetails/>
       <Location />
     </>
   );

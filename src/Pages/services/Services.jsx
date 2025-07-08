@@ -3,7 +3,7 @@ import serviceBanner from "../../assets/serivesPhoto/serviceBanner.jpg"
 import Products from './Products';
 const Services = () => {
   return (
-    <section className=" ">
+    <section>
       <div
         className="w-full h-[200px] md:h-[400px] 2xl:h-[500px] bg-no-repeat  bg-cover bg-center"
         style={{

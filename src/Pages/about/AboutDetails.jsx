@@ -1,12 +1,11 @@
-import React from 'react'
-import { stats } from '../../Utils/Stats'
-import StatsCount from '../../Components/StatsCount';
 
+import { stats } from "../../Utils/Stats";
+import StatsCount from "../../Components/StatsCount";
 
 const AboutDetails = () => {
   return (
     <section className="pb-10">
-      <h1 className=" text-white md:text-gray-800   text-xl text-center  mt-5 md:text-4xl font-medium pb-1 lg:leading-14 font-subHeader rounded-2xl">
+      <h1 className=" text-white text-xl text-center mt-5 md:text-4xl font-medium pb-1 lg:leading-14 font-subHeader rounded-2xl">
         About Us
       </h1>
       <div className="grid grid-cols-1 pt-10 lg:grid-cols-2 items-center gap-5 md:gap-10 mx-4">
@@ -61,6 +60,6 @@ const AboutDetails = () => {
       </div>
     </section>
   );
-}
+};
 
-export default AboutDetails
+export default AboutDetails;
